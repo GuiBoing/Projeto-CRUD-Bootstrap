@@ -1,0 +1,67 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(165 199 207);
+}
+
+body{
+    padding-top: 10px;
+    background-color: rgb(165 199 207);
+}
+.nav-link{
+    padding-top: 3px;
+    color: grey;
+}
+.nav-link:hover{
+    font-weight:bold;
+    color: black;
+}
+.tab-content{
+    padding-top: 1rem;
+}
+
+.actionButtons{
+    margin:20px 1px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.headerTable{
+    background-color: #7497a0;
+    font-size: bold;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+
+}
+
+.table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.table th {
+    color: white;
+    background-color: #94a5aa;
+}
+.modal{
+    background-color: hsla(0, 0%, 0%, 0.144);
+}
+#FailModal div .fail{
+    background-color: rgb(141, 74, 74);
+}
+#CreatedModal div .sucess{
+    background-color: rgb(75, 143, 75);
+}
