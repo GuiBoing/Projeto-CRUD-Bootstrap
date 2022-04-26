@@ -22,6 +22,10 @@ body {
     padding-top: 1rem;
 }
 
+.link-linkedin{
+    color: black;
+}
+
 .actionButtons {
     margin: 20px 1px;
 }
@@ -33,6 +37,9 @@ td {
     border-collapse: collapse;
     text-align: center;
 
+}
+.grand-annoucer-text{
+    text-shadow: -5px 2px 5px #787878;
 }
 
 .headerTable {
