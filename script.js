@@ -265,11 +265,11 @@ function tableGenerator() {
         </td>
         <td>${value.id}</td>
         <td>${value.Name}</td>
-        <td>${value.LastName}</td>
-        <td>${value.Email}</td>
+        <td class="d-md-table-cell d-none">${value.LastName}</td>
+        <td class="d-md-table-cell d-none">${value.Email}</td>
         <td>${value.Phone}</td>
-        <td>${value.AltPhone}</td>
-        <td>${value.Description}</td>
+        <td class="d-md-table-cell d-none">${value.AltPhone}</td>
+        <td class="d-md-table-cell d-none">${value.Description}</td>
         </tr>`
     });
     document.getElementById("answer").innerHTML = tablerow;
@@ -277,4 +277,7 @@ function tableGenerator() {
 
 function getMask(id) {
     $("#" + id).mask("(00) 0 0000-0000")
+}
+function none(){
+    console.log('.')
 }
