@@ -8,4 +8,5 @@ Tabela mostrando dados de usuários com ações de criar, editar, ver detalhes, 
 ### 3. Informações do criador 
 Meu selo de [perfil Linkedin](https://www.linkedin.com/in/guilherme-h-boing/)
 
-Ferramentas utilizadas: Bootstrap,Javascript,HTML,CSS e [jQuery-Mask-Plugin](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html)
+
+Ferramentas utilizadas: Bootstrap, Javascript, HTML, CSS e [jQuery-Mask-Plugin](https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html)
